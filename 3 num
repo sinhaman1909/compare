@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+   int a,b,c,z;
+   printf("enter a,b and c\n");
+   scanf("%d%d%d",&a,&b,&c);
+   z=(a>b)?a:b;
+   z=(a>c)?z:c;
+   printf("The greatest of %d, %d and %d is %d",a,b,c,z);
+   getch();
+}
